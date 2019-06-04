@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav a:first-child{
+    color: red;
+
+
+}
+nav a:hover{
+    font-size: 18.5pt;
+    color: black;
+}
