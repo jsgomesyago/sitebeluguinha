@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 nav{
     background-color: aquamarine;
@@ -25,4 +27,21 @@ nav a:first-child{
 nav a:hover{
     font-size: 18.5pt;
     color: black;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(./imagens/beluga.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+
+
+}
+header h1{
+    margin-left: 500px;
+    
 }
